@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/true_caller</item> <!-- Set background to splash image -->
+        <item name="android:windowFullscreen">true</item> <!-- Full-screen mode -->
+    </style>
+
+
+
+    <style name="st_titre1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#03A9F4</item>
+        <item name="android:textColorLink">#03A9F4</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+</resources>
